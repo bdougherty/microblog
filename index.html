@@ -1,8 +1,18 @@
 ---
-profile: true
+layout: default
+css_class: home
 ---
+<section class="posts h-feed">
+  {% for p in paginator.posts %}
+    <article class="post h-entry">
+      <div class="e-content">{{ p.content }}</div>
+      <footer class="post__footer">
+        <small><time class="dt-published" datetime="{{ p.date | date_to_xmlschema }}"><a href="{{ p.url }}" title="Permalink to Microblog post" class="u-url">{{ p.date | date: "%a, %b %d, %Y at %I:%M%P" }}</time></a></small>
+      </footer>
+    </article>
+  {% endfor %}
+</section>
 
-<div class="h-feed">
-{% include post-list.html %}
-{% include footer.html %}
-</div>
+{% if paginator.previous_page or paginator.next_page %}
+    {% include pagination.html %}
+{% endif %}
