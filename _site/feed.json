@@ -1,24 +1,24 @@
 {
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Brad Dougherty",
-	"home_page_url": "http://bdougherty.micro.blog/",
-	"feed_url": "http://bdougherty.micro.blog/feed.json",
+	"home_page_url": "https://bdougherty.micro.blog/",
+	"feed_url": "https://bdougherty.micro.blog/feed.json",
 	"items": [
 		
 		{
 			"id": "http://bdougherty.micro.blog/2017/08/04/213657.html",
 	      	
 			"content_html": "<p><img src=\"http://bdougherty.micro.blog/uploads/2017/d9b9ca31f1.jpg\" width=\"600\" height=\"600\" style=\"height: auto\" /></p>\n",
-			"date_published": "2017-08-04T17:36:00-04:00",
-			"url": "http://bdougherty.micro.blog/2017/08/04/213657.html"
+			"date_published": "2017-08-04T16:36:00-05:00",
+			"url": "https://bdougherty.micro.blog/2017/08/04/213657.html"
 		},
 		
 		{
 			"id": "http://bdougherty.micro.blog/2017/07/14/044657.html",
 	      	
 			"content_html": "<p><img src=\"http://bdougherty.micro.blog/uploads/2017/203d3f03be.jpg\" width=\"600\" height=\"600\" style=\"height: auto\" /></p>\n",
-			"date_published": "2017-07-14T00:46:00-04:00",
-			"url": "http://bdougherty.micro.blog/2017/07/14/044657.html"
+			"date_published": "2017-07-13T23:46:00-05:00",
+			"url": "https://bdougherty.micro.blog/2017/07/13/044657.html"
 		}
 		
 	]
