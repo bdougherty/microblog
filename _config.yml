@@ -1,27 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-# - title: Your awesome title
 email: your-email@domain.com
 
-# - avatar: han-solo.jpg
-full_# - name: Han Solo
-# - bio: Swindler. Scoundrel. Bad Ass.
-
-# Build settings
-# - markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -29,15 +7,12 @@ sass:
   sass_dir: assets/stylesheets
   style: :compressed
 
-# Output
-# - permalink: /:year/:month/:slug/
-
 title: "Brad Dougherty"
 tagline: ""
-description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
-credits: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
+description: "Follow <a href=\"https://micro.blog/bdougherty\">@bdougherty on Micro.blog</a>."
+credits: "Follow <a href=\"https://micro.blog/bdougherty\">@bdougherty on Micro.blog</a>."
 baseurl: ""
-url: "http://bdougherty.micro.blog"
+url: "https://bdougherty.micro.blog"
 markdown: "kramdown"
 username: "bdougherty"
 permalink: "/:year/:month/:day/:title.html"
@@ -45,7 +20,7 @@ relative_permalinks: false
 author: "Brad Dougherty"
 name: "Brad Dougherty"
 gravatar_hash: "95f937c781b55dc676a94a9bc46473d7"
-avatar: "https://www.gravatar.com/avatar/95f937c781b55dc676a94a9bc46473d7?s=160"
+avatar: "https://micro.blog/bdougherty/avatar.jpg"
 full_name: "Brad Dougherty"
 bio: ""
 twitter_username: ""
@@ -54,3 +29,4 @@ instagram_username: ""
 paginate: 20
 paginate_path: "/page/:num/"
 timezone: "US/Michigan"
+site_id: "210"
